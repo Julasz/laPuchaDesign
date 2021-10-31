@@ -193,7 +193,14 @@ $pSecundary: "Inter", sans-serif;
 }
 
 .main2 {
+  color: $main2;
   margin-top: 3rem;
+}
+.main3{
+  color: $main3;
+}
+.main4{
+  color: $main4;
 }
 
 // Main
@@ -339,55 +346,6 @@ hr {
   }
 }
 
-pre {
-  padding: 4rem;
-
-  .videoPresentacion {
-    width: 70%;
-    margin: 0 auto;
-    position: relative;
-    padding-bottom: 30.25%; /* 16/9 ratio */
-    padding-top: 30px; /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
-    box-shadow: 0 4px 5px 4px gray;
-
-    h2 {
-      display: flex;
-      justify-content: center;
-      position: absolute;
-      bottom: 0;
-      background: linear-gradient(rgba(2, 1, 1, 0), rgba(0, 0, 0, 1));
-      width: 100%;
-      margin: 0;
-      padding: 3rem;
-      font-size: 1.5rem;
-      font-weight: 550;
-
-      a {
-        text-decoration: none;
-        color: rgb(243, 243, 243);
-        font-weight: normal;
-      }
-      a:hover {
-        font-weight: bold;
-      }
-    }
-    iframe {
-      box-shadow: 0 2px 2px 2px gray;
-    }
-  }
-
-  .videoPresentacion iframe,
-  .videoPresentacion object,
-  .videoPresentacion embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-}
 //Instagram
 .instagram {
   width: 70%;
@@ -703,21 +661,6 @@ footer {
     }
   }
 
-  //video
-  pre {
-    padding: 3rem 1rem !important;
-
-    .videoPresentacion {
-      width: 100%;
-      height: 20rem;
-
-      h2 {
-        padding: 1rem;
-        font-size: 1.2rem;
-      }
-    }
-  }
-
   //feedback
   .feedback {
     margin: 5em 0;
@@ -889,14 +832,7 @@ footer {
           }
         }
       }
-      pre {
-        .videoPresentacion {
-          padding: 2rem 0 !important;
-          h2 {
-            padding: 1.5rem;
-          }
-        }
-      }
+      
     }
   }
 
@@ -979,11 +915,7 @@ footer {
     margin-top: 3rem;
   }
 
-  pre {
-    padding: 4rem 0;
-    width: 100%;
-    margin: 0 auto;
-  }
+  
   //feedback
   .feedback-contenedor {
     .feedback-box {

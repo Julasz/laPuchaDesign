@@ -132,7 +132,14 @@
     margin: 0 0.5rem; }
 
 .main2 {
+  color: #db99d4;
   margin-top: 3rem; }
+
+.main3 {
+  color: #c5aaee; }
+
+.main4 {
+  color: #bec1f4; }
 
 h3 {
   font-size: 1.5rem;
@@ -245,47 +252,6 @@ hr {
   padding-bottom: 4rem;
   width: 85%;
   margin: 0 auto; }
-
-pre {
-  padding: 4rem; }
-  pre .videoPresentacion {
-    width: 70%;
-    margin: 0 auto;
-    position: relative;
-    padding-bottom: 30.25%;
-    /* 16/9 ratio */
-    padding-top: 30px;
-    /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
-    box-shadow: 0 4px 5px 4px gray; }
-    pre .videoPresentacion h2 {
-      display: flex;
-      justify-content: center;
-      position: absolute;
-      bottom: 0;
-      background: linear-gradient(rgba(2, 1, 1, 0), black);
-      width: 100%;
-      margin: 0;
-      padding: 3rem;
-      font-size: 1.5rem;
-      font-weight: 550; }
-      pre .videoPresentacion h2 a {
-        text-decoration: none;
-        color: #f3f3f3;
-        font-weight: normal; }
-      pre .videoPresentacion h2 a:hover {
-        font-weight: bold; }
-    pre .videoPresentacion iframe {
-      box-shadow: 0 2px 2px 2px gray; }
-  pre .videoPresentacion iframe,
-  pre .videoPresentacion object,
-  pre .videoPresentacion embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
 
 .instagram {
   width: 70%;
@@ -496,14 +462,6 @@ footer .navbarFooter {
     line-height: 2.2rem; }
     .section__two p {
       padding: 3rem; }
-  pre {
-    padding: 3rem 1rem !important; }
-    pre .videoPresentacion {
-      width: 100%;
-      height: 20rem; }
-      pre .videoPresentacion h2 {
-        padding: 1rem;
-        font-size: 1.2rem; }
   .feedback {
     margin: 5em 0; }
     .feedback .feedback-contenedor {
@@ -597,10 +555,6 @@ footer .navbarFooter {
           display: none; }
         .feedback .feedback-contenedor .feedback-box .feedback-box:hover:before {
           display: none; }
-      .feedback .feedback-contenedor pre .videoPresentacion {
-        padding: 2rem 0 !important; }
-        .feedback .feedback-contenedor pre .videoPresentacion h2 {
-          padding: 1.5rem; }
   .hrPreFooter {
     margin-bottom: 5rem; }
   footer {
@@ -651,10 +605,6 @@ footer .navbarFooter {
       padding: 3rem; }
   .instagram {
     margin-top: 3rem; }
-  pre {
-    padding: 4rem 0;
-    width: 100%;
-    margin: 0 auto; }
   .feedback-contenedor .feedback-box {
     width: 50%;
     height: 10%;
